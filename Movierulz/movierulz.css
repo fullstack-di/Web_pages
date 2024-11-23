@@ -1,0 +1,119 @@
+*{
+    background-color: rgb(87, 87, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin:30px 170px;
+}
+.logo{
+    width:700px;
+    font-size: xx-large;
+    color: rgb(214, 214, 214);
+}
+table{
+    color:rgb(214,214,214);
+}
+.search input{
+    background-color: aliceblue;
+}
+table button{
+    color: aliceblue;
+    font-weight: bold;
+}
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    border-radius: 15px;
+}
+.navbar a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    color: rgb(179, 179, 179);
+    margin: 10px 0px 10px 12px;
+    border-radius: 5px;
+}
+.navbar a:hover{
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+.a{
+    border: 1px solid orange;
+    padding:10px 130px 10px 10px;
+    background-color: rgb(51, 51, 51);
+}
+.a rel{
+    background-color: rgb(51, 51, 51);
+}
+.movies{
+    background-color: rgb(70, 70, 70);
+    width:770px;
+    height: 1000px;
+    float:left;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+.tag2{
+    width: 750px;
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(214, 214, 214);
+    border-radius: 10px;
+    margin: 0px;
+    font-weight: bold;
+}
+.movies img{
+    padding: 2px;
+    background-color: rgb(31, 31, 31);
+}
+.box{
+    width:170px;
+    margin: 10px;
+    border: 1px solid rgb(109, 109, 109);
+    background-color: rgb(31, 31, 31);
+    float: left;
+}
+.box p{
+    text-align: center;
+    font-size:12px;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31);
+    color: rgb(214, 214, 214);
+}
+.side{
+    float:left;
+}
+.tag3{
+    width: 210px;
+    padding: 10px;
+    background-color: rgb(70,70,70);
+    color: rgb(214, 214, 214);
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px 0px 0px 5px;
+    font-size: small;
+}
+.list{
+    width:220px;
+    padding: 5px;
+    background-color: rgb(31,31,31);
+    float: left;
+    margin: 0px 0px 0px 5px;
+    font-size: 12px;
+}
+.list p{
+    background-color: rgb(31,31,31);
+    color: rgb(102, 102, 102);
+}
+.close{
+    width:900px;
+    margin: 60px;
+    background-color: rgb(87, 87, 87);
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(179, 179, 179);
+}
